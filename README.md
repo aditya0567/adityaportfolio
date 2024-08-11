@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+# adityaportfolio
+Welcome to the adityaportfolio repository! This project showcases a comprehensive and modern portfolio website designed to highlight the skills, experiences, and projects of Aditya.
+>>>>>>> 4123fdcbc82ad43e54f88c7445a68b4e97382697
