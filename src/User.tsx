@@ -14,7 +14,7 @@ const ProjectInfo = [
         image: "Portfolio.png",
         live: true,
         technologies: ["React", "Tailwind", ],
-        link: "https://code-mars.github.io/Ekart/",
+        link: "https://adityakumardas.vercel.app/",
         github: "https://github.com/aditya0567"
     },
     {
@@ -84,7 +84,7 @@ const SkillInfo = [
 const socialLinks = [
     { link: "https://github.com/aditya0567", icon: IconBrandGithub },
     { link: "https://www.linkedin.com/in/aditya-kumar-das-b13282228", icon: IconBrandLinkedin },
-    { link: "https://www.leetcode.com/u/CodeMars", icon: IconBrandLeetcode }
+    { link: "https://www.geeksforgeeks.org/user/adityakd0567/", icon: IconBrandLeetcode }
 ];
 
 
