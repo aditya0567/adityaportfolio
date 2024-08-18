@@ -13,13 +13,13 @@ const ProjectCard = (props: any) => {
 
     return (
         <div
-            className="w-[32%] lg:w-[46%] md:w-[48%] sm:w-[90%] xs:w-full"
+            className="w-full sm:w-[48%] md:w-[48%] lg:w-[32%] p-2"
             data-aos="fade-up"
             data-aos-duration="800"
         >
             <Card
                 onClick={open}
-                className="!bg-bgColor cursor-pointer transition-transform duration-300 ease-in-out hover:!scale-[1.02] mb-5 hover:!shadow-[0_0_10px_1px_#64FFDA80] xs:!shadow-[0_0_10px_1px_#64FFDA80] !border-primaryColor border-2"
+                className="!bg-bgColor cursor-pointer transition-transform duration-300 ease-in-out hover:!scale-[1.02] mb-5 hover:!shadow-[0_0_10px_1px_#64FFDA80] !border-primaryColor border-2"
                 shadow="lg"
                 padding="sm"
                 radius="lg"
@@ -33,8 +33,8 @@ const ProjectCard = (props: any) => {
                     />
                 </Card.Section>
 
-                <Group  mt="xs" mb="xs">
-                    <div className="!text-2xl gap-2 !font-bold !text-white flex items-center sm:!text-xl">
+                <Group spacing="apart" mt="xs" mb="xs">
+                    <div className="text-xl sm:text-2xl gap-2 font-bold text-white flex items-center">
                         {props.title}
                         {props.live === true && (
                             <Badge
@@ -57,7 +57,7 @@ const ProjectCard = (props: any) => {
                     </div>
                 </Group>
 
-                <Group mb="sm" className="!gap-2">
+                <Group mb="sm" className="gap-2">
                     {props.technologies.map((tech: string, index: number) => 
                         index < 3 && (
                             <Badge key={index} size={badge} variant="light" color="#64FFDA">
@@ -68,7 +68,7 @@ const ProjectCard = (props: any) => {
                 </Group>
 
                 <Text
-                    className="!text-justify !text-sm xs:!text-xs"
+                    className="text-justify text-xs sm:text-sm"
                     lineClamp={5}
                     size="sm"
                     c="dimmed"
@@ -78,7 +78,7 @@ const ProjectCard = (props: any) => {
 
                 <Button
                     onClick={open}
-                    className={`mt-3 xs:w-full`}
+                    className="mt-3 w-full"
                     color="#64FFDA"
                     variant="outline"
                     radius="md"
